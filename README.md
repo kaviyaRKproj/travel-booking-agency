@@ -26,5 +26,14 @@ A modern travel booking platform built with React.js that allows users to search
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/travel-booking-agency.git
-  
+   git clone https://github.com/yourusername/travel-booking-agency.git 
+2. Install dependencies:
+   npm install
+   npm i bootstrap react-router-dom
+4. Start the development server:
+   npm start
+
+## Home Page
+![image](https://github.com/user-attachments/assets/a7e48a19-3f76-40c4-8c74-7301631e841a)
+
+
