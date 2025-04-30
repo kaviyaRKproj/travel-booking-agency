@@ -34,10 +34,12 @@ A responsive travel booking web app built using React.js, Bootstrap, and CSS.
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/travel-booking-agency.git
-2. nstall dependencies:
+2. Install dependencies:
+   ```bash
    npm install bootstrap
    npm install react-router-dom
-3. Start the development server:
+4. Start the development server:
+   ```bash
    npm start
 
 ## Home Page 
