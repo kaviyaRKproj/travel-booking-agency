@@ -1,0 +1,94 @@
+.booking-search-wrapper {
+    background-image: url('https://images.unsplash.com/photo-1502791451862-7bd8c1df43a7?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .booking-search-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+  }
+  
+  .booking-search-wrapper .container {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  .booking-search-wrapper .card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .booking-search-wrapper .card:hover {
+    transform: scale(1.01);
+  }
+  
+  .booking-search-wrapper h2 {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .booking-search-wrapper .form-label {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .booking-search-wrapper .btn-group .btn {
+    min-width: 120px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .booking-search-wrapper .btn-group .btn:hover {
+    opacity: 0.85;
+  }
+  
+  .booking-search-wrapper .form-control,
+  .booking-search-wrapper .form-select {
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .booking-search-wrapper .form-control:focus,
+  .booking-search-wrapper .form-select:focus {
+    border-color: #28a745;
+    box-shadow: none;
+  }
+  
+  .booking-search-wrapper .btn-success {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-search-wrapper .btn-success:hover {
+    background-color: #218838;
+  }
+  

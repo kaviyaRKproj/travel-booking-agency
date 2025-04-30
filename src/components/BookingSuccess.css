@@ -1,0 +1,206 @@
+.booking-success-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.success-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.success-header h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.booking-summary {
+  margin-bottom: 2rem;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.trip-details-card, .passenger-details {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.trip-details-card h5, .passenger-details h5 {
+  color: #3498db;
+  margin-bottom: 1.2rem;
+}
+
+.details-grid, .passenger-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.journey-route {
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.departure, .arrival {
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+}
+
+.departure {
+  background-color: #e3f2fd;
+}
+
+.arrival {
+  background-color: #e8f5e9;
+}
+
+.recommendations-section {
+  margin: 3rem 0;
+}
+
+.recommendation-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.recommendation-card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.recommendation-card.hotel {
+  background-color: #f0f7ff;
+  border-left: 4px solid #64b5f6;
+}
+
+.recommendation-card.tour {
+  background-color: #fff8e1;
+  border-left: 4px solid #ffd54f;
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: #555;
+}
+
+.card-content h6 {
+  margin-bottom: 0.5rem;
+}
+
+.discount {
+  color: #e53935;
+  font-weight: 500;
+}
+
+.next-steps {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.countdown-text {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Print styles */
+.print-version {
+  padding: 0;
+}
+
+.print-version .booking-summary,
+.print-version .trip-details-card,
+.print-version .passenger-details {
+  box-shadow: none;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.print-footer {
+  margin-top: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px dashed #ccc;
+}
+
+.barcode {
+  margin-top: 1rem;
+}
+
+.barcode img {
+  height: 50px;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .booking-success-container, .booking-success-container * {
+    visibility: visible;
+  }
+  .booking-success-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .details-grid, .passenger-grid, .recommendation-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .summary-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  
+  
+}

@@ -1,0 +1,89 @@
+.my-bookings-wrapper {
+    background-image: url('https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dHJhdmVsfGVufDB8fDB8fHww');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+  }
+  
+  .my-bookings-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark background overlay */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    z-index: 1;
+  }
+  
+  .my-bookings-wrapper .container {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.75); /* Slight transparency for glass effect */
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px); /* Glassmorphism blur */
+  }
+  
+  .my-bookings-wrapper h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .my-bookings-wrapper .btn-primary {
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-bookings-wrapper .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .my-bookings-wrapper .alert {
+    border-radius: 10px;
+    font-size: 0.95rem;
+  }
+  
+  .my-bookings-wrapper .list-group-item {
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background-color: rgba(255, 255, 255, 0.85); /* Slight transparency for card */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .my-bookings-wrapper .list-group-item:hover {
+    transform: scale(1.01);
+  }
+  
+  .my-bookings-wrapper .badge {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+    border-radius: 12px;
+  }
+  
+  .my-bookings-wrapper .btn-outline-danger {
+    transition: all 0.2s ease;
+  }
+  
+  .my-bookings-wrapper .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+  }
+  
+  .my-bookings-wrapper .text-muted {
+    font-size: 0.85rem;
+  }
+  
