@@ -6,21 +6,26 @@ A responsive travel booking web app built using React.js, Bootstrap, and CSS.
 
 ## Features
 
-- User authentication and profiles
-- Flight search and booking
-- Hotel search with filters
-- Package deals and discounts
-- Admin dashboard for management
-- Responsive design for all devices
+🔐 User Authentication – Login, Signup, and Logout functionality for secure access
+
+👤 User Profiles – View and manage personal booking history and details
+
+✈️ Flight Booking –
+   Search and compare flights
+   One-way and round-trip booking options
+   Confirm and pay to save trips under My Bookings
+
+🚌 Bus Booking – Option to search and book buses in addition to flights
+
+💻 Responsive Design – Fully optimized for desktop screens
+
+💳 Payment Integration (Basic) – Simulated payment to confirm bookings
 
 ## Technologies Used
 
 - React.js (Frontend framework)
 - React Router (Routing)
-- Context API (State management)
-- Axios (API calls)
-- Tailwind CSS/Material UI (Styling)
-- [Add any other technologies you used]
+- CSS
 
 ## Installation
 
