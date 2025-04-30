@@ -2,7 +2,7 @@
 
 ![TravelEase Logo](https://via.placeholder.com/150x50?text=TravelEase) <!-- Replace with your actual logo -->
 
-A modern travel booking platform built with React.js that allows users to search, compare, and book flights, hotels, and vacation packages.
+A responsive travel booking web app built using React.js, Bootstrap, and CSS. 
 
 ## Features
 
